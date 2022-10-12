@@ -1,0 +1,28 @@
+{
+  "cli": {
+    "version": ">= 0.57.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "./pc-api-8497779527290249297-884-0bc1b9afe53b.json",
+        "track": "internal"
+      },
+      "ios": {
+        "appleId": "lollipopwar-love@hotmail.co.th",
+        "ascAppId": "1637943361",
+        "appleTeamId": "6ZT95LZDWH"
+      }
+    }
+  }
+}
